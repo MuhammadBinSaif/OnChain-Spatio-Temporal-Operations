@@ -1,0 +1,58 @@
+sweep,sweep_label,scenario,scenario_label,operation,operation_label,avg_gas,std_gas,min_gas,max_gas,rounds,success_rounds,failure_rounds,status
+temporal_span,Temporal Span Sweep,t1_same_day,T1 Same Day,registerBatch,Register Batch,451335.58,0,451335.58,451335.58,10,10,0,ok
+temporal_span,Temporal Span Sweep,t1_same_day,T1 Same Day,findBatchesInTimePeriod,Q2 Batches In Time Period,144540,0,144540,144540,10,10,0,ok
+temporal_span,Temporal Span Sweep,t1_same_day,T1 Same Day,findBatchesInAreaDuringTime_SpatialFirst,Q3 Area During Time (Spatial First),82593,0,82593,82593,10,10,0,ok
+temporal_span,Temporal Span Sweep,t1_same_day,T1 Same Day,findBatchesInAreaDuringTime_TemporalFirst,Q4 Area During Time (Temporal First),73014,0,73014,73014,10,10,0,ok
+temporal_span,Temporal Span Sweep,t1_same_day,T1 Same Day,findBatchesInsideParcelDuringTime,Q6 Batches Inside Parcel During Time,69561,0,69561,69561,10,10,0,ok
+temporal_span,Temporal Span Sweep,t2_week,T2 One Week,registerBatch,Register Batch,597550.75,0,597550.75,597550.75,10,10,0,ok
+temporal_span,Temporal Span Sweep,t2_week,T2 One Week,findBatchesInTimePeriod,Q2 Batches In Time Period,293320,0,293320,293320,10,10,0,ok
+temporal_span,Temporal Span Sweep,t2_week,T2 One Week,findBatchesInAreaDuringTime_SpatialFirst,Q3 Area During Time (Spatial First),82593,0,82593,82593,10,10,0,ok
+temporal_span,Temporal Span Sweep,t2_week,T2 One Week,findBatchesInAreaDuringTime_TemporalFirst,Q4 Area During Time (Temporal First),142346,0,142346,142346,10,10,0,ok
+temporal_span,Temporal Span Sweep,t2_week,T2 One Week,findBatchesInsideParcelDuringTime,Q6 Batches Inside Parcel During Time,69561,0,69561,69561,10,10,0,ok
+temporal_span,Temporal Span Sweep,t3_month,T3 One Month,registerBatch,Register Batch,680226.23,0.3,680225.33,680226.33,10,10,0,ok
+temporal_span,Temporal Span Sweep,t3_month,T3 One Month,findBatchesInTimePeriod,Q2 Batches In Time Period,422975,0,422975,422975,10,10,0,ok
+temporal_span,Temporal Span Sweep,t3_month,T3 One Month,findBatchesInAreaDuringTime_SpatialFirst,Q3 Area During Time (Spatial First),82593,0,82593,82593,10,10,0,ok
+temporal_span,Temporal Span Sweep,t3_month,T3 One Month,findBatchesInAreaDuringTime_TemporalFirst,Q4 Area During Time (Temporal First),261369,0,261369,261369,10,10,0,ok
+temporal_span,Temporal Span Sweep,t3_month,T3 One Month,findBatchesInsideParcelDuringTime,Q6 Batches Inside Parcel During Time,69561,0,69561,69561,10,10,0,ok
+temporal_span,Temporal Span Sweep,t4_quarter,T4 One Quarter,registerBatch,Register Batch,680226.33,0,680226.33,680226.33,10,10,0,ok
+temporal_span,Temporal Span Sweep,t4_quarter,T4 One Quarter,findBatchesInTimePeriod,Q2 Batches In Time Period,572435,0,572435,572435,10,10,0,ok
+temporal_span,Temporal Span Sweep,t4_quarter,T4 One Quarter,findBatchesInAreaDuringTime_SpatialFirst,Q3 Area During Time (Spatial First),82593,0,82593,82593,10,10,0,ok
+temporal_span,Temporal Span Sweep,t4_quarter,T4 One Quarter,findBatchesInAreaDuringTime_TemporalFirst,Q4 Area During Time (Temporal First),413949,0,413949,413949,10,10,0,ok
+temporal_span,Temporal Span Sweep,t4_quarter,T4 One Quarter,findBatchesInsideParcelDuringTime,Q6 Batches Inside Parcel During Time,69561,0,69561,69561,10,10,0,ok
+spatial_selectivity,Spatial Selectivity Sweep,s1_selective,S1 Selective,findBatchesInArea,Q1 Batches In Area,66359,0,66359,66359,10,10,0,ok
+spatial_selectivity,Spatial Selectivity Sweep,s1_selective,S1 Selective,findBatchesInAreaDuringTime_SpatialFirst,Q3 Area During Time (Spatial First),82593,0,82593,82593,10,10,0,ok
+spatial_selectivity,Spatial Selectivity Sweep,s1_selective,S1 Selective,findBatchesInAreaDuringTime_TemporalFirst,Q4 Area During Time (Temporal First),261369,0,261369,261369,10,10,0,ok
+spatial_selectivity,Spatial Selectivity Sweep,s1_selective,S1 Selective,countBatchesInArea,Q7 Count Batches In Area,45856,0,45856,45856,10,10,0,ok
+spatial_selectivity,Spatial Selectivity Sweep,s1_selective,S1 Selective,findLotsInArea,Q8 Lots In Area,82500,0,82500,82500,10,10,0,ok
+spatial_selectivity,Spatial Selectivity Sweep,s2_moderate,S2 Moderate,findBatchesInArea,Q1 Batches In Area,97980,0,97980,97980,10,10,0,ok
+spatial_selectivity,Spatial Selectivity Sweep,s2_moderate,S2 Moderate,findBatchesInAreaDuringTime_SpatialFirst,Q3 Area During Time (Spatial First),121924,0,121924,121924,10,10,0,ok
+spatial_selectivity,Spatial Selectivity Sweep,s2_moderate,S2 Moderate,findBatchesInAreaDuringTime_TemporalFirst,Q4 Area During Time (Temporal First),327004,0,327004,327004,10,10,0,ok
+spatial_selectivity,Spatial Selectivity Sweep,s2_moderate,S2 Moderate,countBatchesInArea,Q7 Count Batches In Area,65703,0,65703,65703,10,10,0,ok
+spatial_selectivity,Spatial Selectivity Sweep,s2_moderate,S2 Moderate,findLotsInArea,Q8 Lots In Area,122477,0,122477,122477,10,10,0,ok
+spatial_selectivity,Spatial Selectivity Sweep,s3_dense,S3 Dense,findBatchesInArea,Q1 Batches In Area,124450,0,124450,124450,10,10,0,ok
+spatial_selectivity,Spatial Selectivity Sweep,s3_dense,S3 Dense,findBatchesInAreaDuringTime_SpatialFirst,Q3 Area During Time (Spatial First),156105,0,156105,156105,10,10,0,ok
+spatial_selectivity,Spatial Selectivity Sweep,s3_dense,S3 Dense,findBatchesInAreaDuringTime_TemporalFirst,Q4 Area During Time (Temporal First),392638,0,392638,392638,10,10,0,ok
+spatial_selectivity,Spatial Selectivity Sweep,s3_dense,S3 Dense,countBatchesInArea,Q7 Count Batches In Area,81036,0,81036,81036,10,10,0,ok
+spatial_selectivity,Spatial Selectivity Sweep,s3_dense,S3 Dense,findLotsInArea,Q8 Lots In Area,157730,0,157730,157730,10,10,0,ok
+parcel_coverage,Parcel Coverage Sweep,p1_4_leaves,P1 4 Leaves,registerParcel,Register Parcel,509527,0,509527,509527,10,10,0,ok
+parcel_coverage,Parcel Coverage Sweep,p1_4_leaves,P1 4 Leaves,findBatchesInsideParcel,Q5 Batches Inside Parcel,55222,0,55222,55222,10,10,0,ok
+parcel_coverage,Parcel Coverage Sweep,p1_4_leaves,P1 4 Leaves,findBatchesInsideParcelDuringTime,Q6 Batches Inside Parcel During Time,69559.8,3.6,69549,69561,10,10,0,ok
+parcel_coverage,Parcel Coverage Sweep,p1_4_leaves,P1 4 Leaves,findLotsInsideParcelDuringTime,Q12 Lots Inside Parcel During Time,85961.8,3.6,85951,85963,10,10,0,ok
+parcel_coverage,Parcel Coverage Sweep,p2_8_leaves,P2 8 Leaves,registerParcel,Register Parcel,638403,0,638403,638403,10,10,0,ok
+parcel_coverage,Parcel Coverage Sweep,p2_8_leaves,P2 8 Leaves,findBatchesInsideParcel,Q5 Batches Inside Parcel,70266,0,70266,70266,10,10,0,ok
+parcel_coverage,Parcel Coverage Sweep,p2_8_leaves,P2 8 Leaves,findBatchesInsideParcelDuringTime,Q6 Batches Inside Parcel During Time,85013,0,85013,85013,10,10,0,ok
+parcel_coverage,Parcel Coverage Sweep,p2_8_leaves,P2 8 Leaves,findLotsInsideParcelDuringTime,Q12 Lots Inside Parcel During Time,101415,0,101415,101415,10,10,0,ok
+parcel_coverage,Parcel Coverage Sweep,p3_16_leaves,P3 16 Leaves,registerParcel,Register Parcel,896155,0,896155,896155,10,10,0,ok
+parcel_coverage,Parcel Coverage Sweep,p3_16_leaves,P3 16 Leaves,findBatchesInsideParcel,Q5 Batches Inside Parcel,100354,0,100354,100354,10,10,0,ok
+parcel_coverage,Parcel Coverage Sweep,p3_16_leaves,P3 16 Leaves,findBatchesInsideParcelDuringTime,Q6 Batches Inside Parcel During Time,115917,0,115917,115917,10,10,0,ok
+parcel_coverage,Parcel Coverage Sweep,p3_16_leaves,P3 16 Leaves,findLotsInsideParcelDuringTime,Q12 Lots Inside Parcel During Time,132319,0,132319,132319,10,10,0,ok
+parcel_coverage,Parcel Coverage Sweep,p4_32_leaves,P4 32 Leaves,registerParcel,Register Parcel,1411659,0,1411659,1411659,10,10,0,ok
+parcel_coverage,Parcel Coverage Sweep,p4_32_leaves,P4 32 Leaves,findBatchesInsideParcel,Q5 Batches Inside Parcel,160530,0,160530,160530,10,10,0,ok
+parcel_coverage,Parcel Coverage Sweep,p4_32_leaves,P4 32 Leaves,findBatchesInsideParcelDuringTime,Q6 Batches Inside Parcel During Time,177725,0,177725,177725,10,10,0,ok
+parcel_coverage,Parcel Coverage Sweep,p4_32_leaves,P4 32 Leaves,findLotsInsideParcelDuringTime,Q12 Lots Inside Parcel During Time,194127,0,194127,194127,10,10,0,ok
+lot_history,Lot History Sweep,l1_3_batches,L1 3 Batches/Lot,getLotTrajectory,Q9 Lot Trajectory,47742,0,47742,47742,10,10,0,ok
+lot_history,Lot History Sweep,l1_3_batches,L1 3 Batches/Lot,getLotLocationAtTime,Q10 Lot Location At Time,40258,0,40258,40258,10,10,0,ok
+lot_history,Lot History Sweep,l2_10_batches,L2 10 Batches/Lot,getLotTrajectory,Q9 Lot Trajectory,99747,0,99747,99747,10,10,0,ok
+lot_history,Lot History Sweep,l2_10_batches,L2 10 Batches/Lot,getLotLocationAtTime,Q10 Lot Location At Time,49486,0,49486,49486,10,10,0,ok
+lot_history,Lot History Sweep,l3_25_batches,L3 25 Batches/Lot,getLotTrajectory,Q9 Lot Trajectory,211208,0,211208,211208,10,10,0,ok
+lot_history,Lot History Sweep,l3_25_batches,L3 25 Batches/Lot,getLotLocationAtTime,Q10 Lot Location At Time,63328,0,63328,63328,10,10,0,ok

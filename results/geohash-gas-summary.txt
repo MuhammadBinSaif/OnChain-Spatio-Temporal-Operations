@@ -1,0 +1,72 @@
+# Geohash Gas Benchmark
+
+## Scenario
+
+- Rounds: 10
+- Contract: `Geohash.sol` only
+- Parcels: 3
+- Lots: 4
+- Batches: 12
+- Parcel declaration gaps: 10 days
+- Batch creation gaps: 7 days
+- Query time window: day offsets 56 to 91
+- Area query target: the first parcel area (prefix4 of area A)
+
+Gas for writes comes from transaction receipts. Gas for reads comes from `estimateGas`.
+
+## Main Operations
+
+| Operation | Avg Gas | Std Dev | Min | Max | Status |
+|---|---:|---:|---:|---:|---|
+| registerParcel | 509527 | 0 | 509527 | 509527 | ok |
+| registerLot | 163973 | 0 | 163973 | 163973 | ok |
+| registerBatch | 680226.73 | 0.66 | 680225.33 | 680227.33 | ok |
+| findBatchesInArea | 66359 | 0 | 66359 | 66359 | ok |
+| findBatchesInTimePeriod | 274924 | 0 | 274924 | 274924 | ok |
+| findBatchesInAreaDuringTime_SpatialFirst | 83213 | 0 | 83213 | 83213 | ok |
+| findBatchesInAreaDuringTime_TemporalFirst | 217391 | 0 | 217391 | 217391 | ok |
+| findBatchesInsideParcel | 55222 | 0 | 55222 | 55222 | ok |
+| findBatchesInsideParcelDuringTime | 70337 | 0 | 70337 | 70337 | ok |
+| countBatchesInArea | 45856 | 0 | 45856 | 45856 | ok |
+| findLotsInArea | 82500 | 0 | 82500 | 82500 | ok |
+| getLotTrajectory | 47742 | 0 | 47742 | 47742 | ok |
+| getLotLocationAtTime | 35650 | 6 | 35644 | 35656 | ok |
+| findParcelsAtLocation | 26392 | 0 | 26392 | 26392 | ok |
+| findLotsInsideParcelDuringTime | 80555 | 0 | 80555 | 80555 | ok |
+
+## RegisterBatch Section Split
+
+| Section | Avg Gas | Std Dev | Min | Max | Status |
+|---|---:|---:|---:|---:|---|
+| gas | 683523.33 | 89473.52 | 594139 | 857247 | ok |
+| setupGas | 96569 | 4726.19 | 95144 | 112244 | ok |
+| spatialGas | 115555.33 | 77550.82 | 34720 | 246528 | ok |
+| temporalGas | 365244 | 4726.19 | 363819 | 380919 | ok |
+| sharedGas | 77625 | 8061.02 | 71925 | 89025 | ok |
+
+## Controlled RegisterBatch Cases
+
+| Case | Tx Gas | Setup | Spatial | Temporal | Shared |
+|---|---:|---:|---:|---:|---:|
+| existingLeaf_existingBucket | 269722 | 95144 | 34720 | 39402 | 71925 |
+| existingLeaf_newBucket | 594139 | 95144 | 34720 | 363819 | 71925 |
+| newLeaf_existingBucket | 724549 | 95144 | 246528 | 282421 | 71925 |
+| newLeaf_newBucket | 805947 | 95144 | 246528 | 363819 | 71925 |
+
+## Write Interpretation
+
+- Exact average `registerBatch` gas in the main scenario: 680226.73
+- Exact average measured setup gas inside `registerBatchMeasured`: 96569
+- Exact average measured spatial-tree gas inside `registerBatchMeasured`: 115555.33
+- Exact average measured temporal-tree gas inside `registerBatchMeasured`: 365244
+- Exact average measured shared-tail gas inside `registerBatchMeasured`: 77625
+- Base measured transaction gas when the leaf and time bucket already exist: 269722
+- Base spatial-tree gas in that base case: 34720
+- Base temporal-tree gas in that base case: 39402
+- Additional temporal-tree gas when opening a new time bucket: 324417
+- Additional spatial-tree gas when inserting a new leaf into an existing time bucket: 211808
+- Measured transaction gas when both a new leaf and a new time bucket are introduced: 805947
+
+The original `registerBatch` path is still used to report real total write gas.
+The measured path `registerBatchMeasured` is used only to extract exact internal section costs for setup, spatial-tree writes, temporal-tree writes, and shared bookkeeping.
+

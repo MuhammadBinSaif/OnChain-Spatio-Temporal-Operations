@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+<rect x="0" y="0" width="1200" height="680" fill="#ffffff"/>
+<text x="600" y="42" text-anchor="middle" font-size="24" font-family="Arial" font-weight="700" fill="#111827">Temporal Span Sweep: Batch Write Decomposition</text>
+<text x="37" y="72" text-anchor="start" font-size="14" font-family="Arial" fill="#374151">Gas</text>
+<line x1="95" y1="540" x2="1170" y2="540" stroke="#e5e7eb" stroke-width="1"/>
+<text x="83" y="545" text-anchor="end" font-size="12" font-family="Arial" fill="#6b7280">0</text>
+<line x1="95" y1="427.5" x2="1170" y2="427.5" stroke="#e5e7eb" stroke-width="1"/>
+<text x="83" y="432.5" text-anchor="end" font-size="12" font-family="Arial" fill="#6b7280">200,000</text>
+<line x1="95" y1="315" x2="1170" y2="315" stroke="#e5e7eb" stroke-width="1"/>
+<text x="83" y="320" text-anchor="end" font-size="12" font-family="Arial" fill="#6b7280">400,000</text>
+<line x1="95" y1="202.5" x2="1170" y2="202.5" stroke="#e5e7eb" stroke-width="1"/>
+<text x="83" y="207.5" text-anchor="end" font-size="12" font-family="Arial" fill="#6b7280">600,000</text>
+<line x1="95" y1="90" x2="1170" y2="90" stroke="#e5e7eb" stroke-width="1"/>
+<text x="83" y="95" text-anchor="end" font-size="12" font-family="Arial" fill="#6b7280">800,000</text>
+<line x1="95" y1="90" x2="95" y2="540" stroke="#111827" stroke-width="1.5"/>
+<line x1="95" y1="540" x2="1170" y2="540" stroke="#111827" stroke-width="1.5"/>
+<rect x="95" y="58" width="16" height="16" fill="#0f766e" rx="2"/>
+<text x="119" y="71" font-size="13" font-family="Arial" fill="#374151">Register Batch</text>
+<rect x="270" y="58" width="16" height="16" fill="#f97316" rx="2"/>
+<text x="294" y="71" font-size="13" font-family="Arial" fill="#374151">Spatial Tree</text>
+<rect x="445" y="58" width="16" height="16" fill="#7c3aed" rx="2"/>
+<text x="469" y="71" font-size="13" font-family="Arial" fill="#374151">Temporal Tree</text>
+<rect x="620" y="58" width="16" height="16" fill="#2563eb" rx="2"/>
+<text x="644" y="71" font-size="13" font-family="Arial" fill="#374151">Shared</text>
+<rect x="129.9375" y="286.12373625" width="45.71875" height="253.87626375000002" fill="#0f766e" rx="3"/>
+<text x="152.796875" y="280.12373625" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">451,336</text>
+<rect x="179.65625" y="475.000126875" width="45.71875" height="64.999873125" fill="#f97316" rx="3"/>
+<text x="202.515625" y="469.000126875" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">115,555</text>
+<rect x="229.375" y="463.301296875" width="45.71875" height="76.69870312500001" fill="#7c3aed" rx="3"/>
+<text x="252.234375" y="457.301296875" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">136,353</text>
+<rect x="279.09375" y="496.3359375" width="45.71875" height="43.6640625" fill="#2563eb" rx="3"/>
+<text x="301.953125" y="490.3359375" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">77,625</text>
+<text x="229.375" y="636" text-anchor="middle" font-size="13" font-family="Arial" fill="#111827">1 day</text>
+<rect x="398.6875" y="203.87770312499998" width="45.71875" height="336.122296875" fill="#0f766e" rx="3"/>
+<text x="421.546875" y="197.87770312499998" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">597,551</text>
+<rect x="448.40625" y="475.000126875" width="45.71875" height="64.999873125" fill="#f97316" rx="3"/>
+<text x="471.265625" y="469.000126875" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">115,555</text>
+<rect x="498.125" y="381.05526375" width="45.71875" height="158.94473625" fill="#7c3aed" rx="3"/>
+<text x="520.984375" y="375.05526375" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">282,568</text>
+<rect x="547.84375" y="496.3359375" width="45.71875" height="43.6640625" fill="#2563eb" rx="3"/>
+<text x="570.703125" y="490.3359375" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">77,625</text>
+<text x="498.125" y="636" text-anchor="middle" font-size="13" font-family="Arial" fill="#111827">7 days</text>
+<rect x="667.4375" y="157.372745625" width="45.71875" height="382.627254375" fill="#0f766e" rx="3"/>
+<text x="690.296875" y="151.372745625" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">680,226</text>
+<rect x="717.15625" y="475.000126875" width="45.71875" height="64.999873125" fill="#f97316" rx="3"/>
+<text x="740.015625" y="469.000126875" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">115,555</text>
+<rect x="766.875" y="334.55025" width="45.71875" height="205.44975" fill="#7c3aed" rx="3"/>
+<text x="789.734375" y="328.55025" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">365,244</text>
+<rect x="816.59375" y="496.3359375" width="45.71875" height="43.6640625" fill="#2563eb" rx="3"/>
+<text x="839.453125" y="490.3359375" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">77,625</text>
+<text x="766.875" y="636" text-anchor="middle" font-size="13" font-family="Arial" fill="#111827">30 days</text>
+<rect x="936.1875" y="157.372689375" width="45.71875" height="382.627310625" fill="#0f766e" rx="3"/>
+<text x="959.046875" y="151.372689375" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">680,226</text>
+<rect x="985.90625" y="475.000126875" width="45.71875" height="64.999873125" fill="#f97316" rx="3"/>
+<text x="1008.765625" y="469.000126875" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">115,555</text>
+<rect x="1035.625" y="334.55025" width="45.71875" height="205.44975" fill="#7c3aed" rx="3"/>
+<text x="1058.484375" y="328.55025" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">365,244</text>
+<rect x="1085.34375" y="496.3359375" width="45.71875" height="43.6640625" fill="#2563eb" rx="3"/>
+<text x="1108.203125" y="490.3359375" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">77,625</text>
+<text x="1035.625" y="636" text-anchor="middle" font-size="13" font-family="Arial" fill="#111827">90 days</text>
+</svg>

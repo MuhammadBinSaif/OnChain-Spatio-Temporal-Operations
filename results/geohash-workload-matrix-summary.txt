@@ -1,0 +1,72 @@
+# Geohash Workload Matrix Benchmark
+
+## Setup
+
+- Rounds per scenario: 10
+- Contract: `Geohash.sol`
+- Writes measured from transaction receipts
+- Reads measured from `eth_estimateGas`
+- Focus: workload-sensitive gas behavior of spatio-temporal queries
+
+## Temporal Span Sweep
+
+| Scenario | Register Batch | Q2 Batches In Time Period | Q3 Area During Time (Spatial First) | Q4 Area During Time (Temporal First) | Q6 Batches Inside Parcel During Time |
+| --- | --- | --- | --- | --- | --- |
+| T1 Same Day | 451,335.58 | 144,540 | 82,593 | 73,014 | 69,561 |
+| T2 One Week | 597,550.75 | 293,320 | 82,593 | 142,346 | 69,561 |
+| T3 One Month | 680,226.23 | 422,975 | 82,593 | 261,369 | 69,561 |
+| T4 One Quarter | 680,226.33 | 572,435 | 82,593 | 413,949 | 69,561 |
+
+| Scenario | Setup Gas | Spatial Tree Gas | Temporal Tree Gas | Shared Linkage Gas |
+| --- | --- | --- | --- | --- |
+| T1 Same Day | 96,569 | 115,555.33 | 136,353.25 | 77,625 |
+| T2 One Week | 96,569 | 115,555.33 | 282,568.42 | 77,625 |
+| T3 One Month | 96,569 | 115,555.33 | 365,244 | 77,625 |
+| T4 One Quarter | 96,569 | 115,555.33 | 365,244 | 77,625 |
+
+Chart: /Users/muhammadbinsaif/Desktop/D Drive/Papers/Geo-Spital-Data-Implementation/results/geohash-charts/geohash-temporal-span-queries.svg
+
+Chart: /Users/muhammadbinsaif/Desktop/D Drive/Papers/Geo-Spital-Data-Implementation/results/geohash-charts/geohash-temporal-span-writes.svg
+
+Spatial-first gas changes from 82,593 to 82,593, while temporal-first changes from 73,014 to 413,949.
+
+## Spatial Selectivity Sweep
+
+| Scenario | Q1 Batches In Area | Q3 Area During Time (Spatial First) | Q4 Area During Time (Temporal First) | Q7 Count Batches In Area | Q8 Lots In Area |
+| --- | --- | --- | --- | --- | --- |
+| S1 Selective | 66,359 | 82,593 | 261,369 | 45,856 | 82,500 |
+| S2 Moderate | 97,980 | 121,924 | 327,004 | 65,703 | 122,477 |
+| S3 Dense | 124,450 | 156,105 | 392,638 | 81,036 | 157,730 |
+
+Chart: /Users/muhammadbinsaif/Desktop/D Drive/Papers/Geo-Spital-Data-Implementation/results/geohash-charts/geohash-spatial-selectivity.svg
+
+In the selective case, spatial-first costs 82,593 gas and temporal-first costs 261,369 gas. In the dense case, the same operations cost 156,105 and 392,638 gas, respectively.
+
+## Parcel Coverage Sweep
+
+| Scenario | Register Parcel | Q5 Batches Inside Parcel | Q6 Batches Inside Parcel During Time | Q12 Lots Inside Parcel During Time |
+| --- | --- | --- | --- | --- |
+| P1 4 Leaves | 509,527 | 55,222 | 69,559.8 | 85,961.8 |
+| P2 8 Leaves | 638,403 | 70,266 | 85,013 | 101,415 |
+| P3 16 Leaves | 896,155 | 100,354 | 115,917 | 132,319 |
+| P4 32 Leaves | 1,411,659 | 160,530 | 177,725 | 194,127 |
+
+Chart: /Users/muhammadbinsaif/Desktop/D Drive/Papers/Geo-Spital-Data-Implementation/results/geohash-charts/geohash-parcel-coverage.svg
+
+## Lot History Sweep
+
+| Scenario | Q9 Lot Trajectory | Q10 Lot Location At Time |
+| --- | --- | --- |
+| L1 3 Batches/Lot | 47,742 | 40,258 |
+| L2 10 Batches/Lot | 99,747 | 49,486 |
+| L3 25 Batches/Lot | 211,208 | 63,328 |
+
+Chart: /Users/muhammadbinsaif/Desktop/D Drive/Papers/Geo-Spital-Data-Implementation/results/geohash-charts/geohash-lot-history.svg
+
+## Output Files
+
+- Summary text: /Users/muhammadbinsaif/Desktop/D Drive/Papers/Geo-Spital-Data-Implementation/results/geohash-workload-matrix-summary.txt
+- Combined CSV: /Users/muhammadbinsaif/Desktop/D Drive/Papers/Geo-Spital-Data-Implementation/results/geohash-workload-matrix.csv
+- Combined JSON: /Users/muhammadbinsaif/Desktop/D Drive/Papers/Geo-Spital-Data-Implementation/results/geohash-workload-matrix.json
+- Temporal section CSV: /Users/muhammadbinsaif/Desktop/D Drive/Papers/Geo-Spital-Data-Implementation/results/geohash-workload-sections.csv
+

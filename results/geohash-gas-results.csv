@@ -1,0 +1,16 @@
+operation,label,avg_gas,std_gas,min_gas,max_gas,rounds,success_rounds,failure_rounds,status
+registerParcel,Register Parcel,509527,0,509527,509527,10,10,0,ok
+registerLot,Register Lot,163973,0,163973,163973,10,10,0,ok
+registerBatch,Register Batch,680226.73,0.66,680225.33,680227.33,10,10,0,ok
+findBatchesInArea,Q1 Batches In Area,66359,0,66359,66359,10,10,0,ok
+findBatchesInTimePeriod,Q2 Batches In Time Period,274924,0,274924,274924,10,10,0,ok
+findBatchesInAreaDuringTime_SpatialFirst,Q3 Area During Time (Spatial First),83213,0,83213,83213,10,10,0,ok
+findBatchesInAreaDuringTime_TemporalFirst,Q4 Area During Time (Temporal First),217391,0,217391,217391,10,10,0,ok
+findBatchesInsideParcel,Q5 Batches Inside Parcel,55222,0,55222,55222,10,10,0,ok
+findBatchesInsideParcelDuringTime,Q6 Batches Inside Parcel During Time,70337,0,70337,70337,10,10,0,ok
+countBatchesInArea,Q7 Count Batches In Area,45856,0,45856,45856,10,10,0,ok
+findLotsInArea,Q8 Lots In Area,82500,0,82500,82500,10,10,0,ok
+getLotTrajectory,Q9 Lot Trajectory,47742,0,47742,47742,10,10,0,ok
+getLotLocationAtTime,Q10 Lot Location At Time,35650,6,35644,35656,10,10,0,ok
+findParcelsAtLocation,Q11 Parcels At Location,26392,0,26392,26392,10,10,0,ok
+findLotsInsideParcelDuringTime,Q12 Lots Inside Parcel During Time,80555,0,80555,80555,10,10,0,ok

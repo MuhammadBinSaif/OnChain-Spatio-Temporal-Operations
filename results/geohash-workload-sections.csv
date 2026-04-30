@@ -1,0 +1,17 @@
+sweep,scenario,scenario_label,section,section_label,avg_gas,std_gas,min_gas,max_gas,rounds,success_rounds,failure_rounds,status
+temporal_span,t1_same_day,T1 Same Day,setupGas,Setup Gas,96569,0,96569,96569,10,10,0,ok
+temporal_span,t1_same_day,T1 Same Day,spatialGas,Spatial Tree Gas,115555.33,0,115555.33,115555.33,10,10,0,ok
+temporal_span,t1_same_day,T1 Same Day,temporalGas,Temporal Tree Gas,136353.25,0,136353.25,136353.25,10,10,0,ok
+temporal_span,t1_same_day,T1 Same Day,sharedGas,Shared Linkage Gas,77625,0,77625,77625,10,10,0,ok
+temporal_span,t2_week,T2 One Week,setupGas,Setup Gas,96569,0,96569,96569,10,10,0,ok
+temporal_span,t2_week,T2 One Week,spatialGas,Spatial Tree Gas,115555.33,0,115555.33,115555.33,10,10,0,ok
+temporal_span,t2_week,T2 One Week,temporalGas,Temporal Tree Gas,282568.42,0,282568.42,282568.42,10,10,0,ok
+temporal_span,t2_week,T2 One Week,sharedGas,Shared Linkage Gas,77625,0,77625,77625,10,10,0,ok
+temporal_span,t3_month,T3 One Month,setupGas,Setup Gas,96569,0,96569,96569,10,10,0,ok
+temporal_span,t3_month,T3 One Month,spatialGas,Spatial Tree Gas,115555.33,0,115555.33,115555.33,10,10,0,ok
+temporal_span,t3_month,T3 One Month,temporalGas,Temporal Tree Gas,365244,0,365244,365244,10,10,0,ok
+temporal_span,t3_month,T3 One Month,sharedGas,Shared Linkage Gas,77625,0,77625,77625,10,10,0,ok
+temporal_span,t4_quarter,T4 One Quarter,setupGas,Setup Gas,96569,0,96569,96569,10,10,0,ok
+temporal_span,t4_quarter,T4 One Quarter,spatialGas,Spatial Tree Gas,115555.33,0,115555.33,115555.33,10,10,0,ok
+temporal_span,t4_quarter,T4 One Quarter,temporalGas,Temporal Tree Gas,365244,0,365244,365244,10,10,0,ok
+temporal_span,t4_quarter,T4 One Quarter,sharedGas,Shared Linkage Gas,77625,0,77625,77625,10,10,0,ok

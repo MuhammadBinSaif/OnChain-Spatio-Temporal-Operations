@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+<rect x="0" y="0" width="1200" height="680" fill="#ffffff"/>
+<text x="600" y="42" text-anchor="middle" font-size="24" font-family="Arial" font-weight="700" fill="#111827">Parcel Coverage Sweep: Parcel Join Gas</text>
+<text x="37" y="72" text-anchor="start" font-size="14" font-family="Arial" fill="#374151">Gas</text>
+<line x1="95" y1="540" x2="1170" y2="540" stroke="#e5e7eb" stroke-width="1"/>
+<text x="83" y="545" text-anchor="end" font-size="12" font-family="Arial" fill="#6b7280">0</text>
+<line x1="95" y1="390" x2="1170" y2="390" stroke="#e5e7eb" stroke-width="1"/>
+<text x="83" y="395" text-anchor="end" font-size="12" font-family="Arial" fill="#6b7280">500,000</text>
+<line x1="95" y1="240" x2="1170" y2="240" stroke="#e5e7eb" stroke-width="1"/>
+<text x="83" y="245" text-anchor="end" font-size="12" font-family="Arial" fill="#6b7280">1,000,000</text>
+<line x1="95" y1="90" x2="1170" y2="90" stroke="#e5e7eb" stroke-width="1"/>
+<text x="83" y="95" text-anchor="end" font-size="12" font-family="Arial" fill="#6b7280">1,500,000</text>
+<line x1="95" y1="90" x2="95" y2="540" stroke="#111827" stroke-width="1.5"/>
+<line x1="95" y1="540" x2="1170" y2="540" stroke="#111827" stroke-width="1.5"/>
+<rect x="95" y="58" width="16" height="16" fill="#0f766e" rx="2"/>
+<text x="119" y="71" font-size="13" font-family="Arial" fill="#374151">Register Parcel</text>
+<rect x="270" y="58" width="16" height="16" fill="#f97316" rx="2"/>
+<text x="294" y="71" font-size="13" font-family="Arial" fill="#374151">Batches In Parcel</text>
+<rect x="445" y="58" width="16" height="16" fill="#7c3aed" rx="2"/>
+<text x="469" y="71" font-size="13" font-family="Arial" fill="#374151">Parcel + Time</text>
+<rect x="620" y="58" width="16" height="16" fill="#2563eb" rx="2"/>
+<text x="644" y="71" font-size="13" font-family="Arial" fill="#374151">Lots In Parcel + Time</text>
+<rect x="129.9375" y="387.14189999999996" width="45.71875" height="152.8581" fill="#0f766e" rx="3"/>
+<text x="152.796875" y="381.14189999999996" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">509,527</text>
+<rect x="179.65625" y="523.4334" width="45.71875" height="16.5666" fill="#f97316" rx="3"/>
+<text x="202.515625" y="517.4334" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">55,222</text>
+<rect x="229.375" y="519.13206" width="45.71875" height="20.86794" fill="#7c3aed" rx="3"/>
+<text x="252.234375" y="513.13206" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">69,560</text>
+<rect x="279.09375" y="514.21146" width="45.71875" height="25.78854" fill="#2563eb" rx="3"/>
+<text x="301.953125" y="508.21146" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">85,962</text>
+<text x="229.375" y="636" text-anchor="middle" font-size="13" font-family="Arial" fill="#111827">4 leaves</text>
+<rect x="398.6875" y="348.4791" width="45.71875" height="191.52089999999998" fill="#0f766e" rx="3"/>
+<text x="421.546875" y="342.4791" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">638,403</text>
+<rect x="448.40625" y="518.9202" width="45.71875" height="21.0798" fill="#f97316" rx="3"/>
+<text x="471.265625" y="512.9202" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">70,266</text>
+<rect x="498.125" y="514.4961" width="45.71875" height="25.5039" fill="#7c3aed" rx="3"/>
+<text x="520.984375" y="508.49609999999996" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">85,013</text>
+<rect x="547.84375" y="509.5755" width="45.71875" height="30.424500000000002" fill="#2563eb" rx="3"/>
+<text x="570.703125" y="503.5755" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">101,415</text>
+<text x="498.125" y="636" text-anchor="middle" font-size="13" font-family="Arial" fill="#111827">8 leaves</text>
+<rect x="667.4375" y="271.1535" width="45.71875" height="268.8465" fill="#0f766e" rx="3"/>
+<text x="690.296875" y="265.1535" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">896,155</text>
+<rect x="717.15625" y="509.8938" width="45.71875" height="30.1062" fill="#f97316" rx="3"/>
+<text x="740.015625" y="503.8938" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">100,354</text>
+<rect x="766.875" y="505.2249" width="45.71875" height="34.7751" fill="#7c3aed" rx="3"/>
+<text x="789.734375" y="499.2249" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">115,917</text>
+<rect x="816.59375" y="500.3043" width="45.71875" height="39.695699999999995" fill="#2563eb" rx="3"/>
+<text x="839.453125" y="494.3043" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">132,319</text>
+<text x="766.875" y="636" text-anchor="middle" font-size="13" font-family="Arial" fill="#111827">16 leaves</text>
+<rect x="936.1875" y="116.50229999999999" width="45.71875" height="423.4977" fill="#0f766e" rx="3"/>
+<text x="959.046875" y="110.50229999999999" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">1,411,659</text>
+<rect x="985.90625" y="491.841" width="45.71875" height="48.159" fill="#f97316" rx="3"/>
+<text x="1008.765625" y="485.841" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">160,530</text>
+<rect x="1035.625" y="486.6825" width="45.71875" height="53.317499999999995" fill="#7c3aed" rx="3"/>
+<text x="1058.484375" y="480.6825" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">177,725</text>
+<rect x="1085.34375" y="481.76189999999997" width="45.71875" height="58.2381" fill="#2563eb" rx="3"/>
+<text x="1108.203125" y="475.76189999999997" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">194,127</text>
+<text x="1035.625" y="636" text-anchor="middle" font-size="13" font-family="Arial" fill="#111827">32 leaves</text>
+</svg>

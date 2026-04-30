@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+<rect x="0" y="0" width="1200" height="680" fill="#ffffff"/>
+<text x="600" y="42" text-anchor="middle" font-size="24" font-family="Arial" font-weight="700" fill="#111827">Spatial Selectivity Sweep: Area Query Comparison</text>
+<text x="37" y="72" text-anchor="start" font-size="14" font-family="Arial" fill="#374151">Gas</text>
+<line x1="95" y1="540" x2="1170" y2="540" stroke="#e5e7eb" stroke-width="1"/>
+<text x="83" y="545" text-anchor="end" font-size="12" font-family="Arial" fill="#6b7280">0</text>
+<line x1="95" y1="427.5" x2="1170" y2="427.5" stroke="#e5e7eb" stroke-width="1"/>
+<text x="83" y="432.5" text-anchor="end" font-size="12" font-family="Arial" fill="#6b7280">100,000</text>
+<line x1="95" y1="315" x2="1170" y2="315" stroke="#e5e7eb" stroke-width="1"/>
+<text x="83" y="320" text-anchor="end" font-size="12" font-family="Arial" fill="#6b7280">200,000</text>
+<line x1="95" y1="202.5" x2="1170" y2="202.5" stroke="#e5e7eb" stroke-width="1"/>
+<text x="83" y="207.5" text-anchor="end" font-size="12" font-family="Arial" fill="#6b7280">300,000</text>
+<line x1="95" y1="90" x2="1170" y2="90" stroke="#e5e7eb" stroke-width="1"/>
+<text x="83" y="95" text-anchor="end" font-size="12" font-family="Arial" fill="#6b7280">400,000</text>
+<line x1="95" y1="90" x2="95" y2="540" stroke="#111827" stroke-width="1.5"/>
+<line x1="95" y1="540" x2="1170" y2="540" stroke="#111827" stroke-width="1.5"/>
+<rect x="95" y="58" width="16" height="16" fill="#0f766e" rx="2"/>
+<text x="119" y="71" font-size="13" font-family="Arial" fill="#374151">Area</text>
+<rect x="270" y="58" width="16" height="16" fill="#f97316" rx="2"/>
+<text x="294" y="71" font-size="13" font-family="Arial" fill="#374151">Spatial First</text>
+<rect x="445" y="58" width="16" height="16" fill="#7c3aed" rx="2"/>
+<text x="469" y="71" font-size="13" font-family="Arial" fill="#374151">Temporal First</text>
+<rect x="620" y="58" width="16" height="16" fill="#2563eb" rx="2"/>
+<text x="644" y="71" font-size="13" font-family="Arial" fill="#374151">Count Area</text>
+<rect x="795" y="58" width="16" height="16" fill="#dc2626" rx="2"/>
+<text x="819" y="71" font-size="13" font-family="Arial" fill="#374151">Lots In Area</text>
+<rect x="141.58333333333334" y="465.34612500000003" width="49.033333333333324" height="74.653875" fill="#0f766e" rx="3"/>
+<text x="166.1" y="459.34612500000003" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">66,359</text>
+<rect x="194.61666666666667" y="447.082875" width="49.033333333333324" height="92.91712500000001" fill="#f97316" rx="3"/>
+<text x="219.13333333333333" y="441.082875" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">82,593</text>
+<rect x="247.64999999999998" y="245.959875" width="49.033333333333324" height="294.040125" fill="#7c3aed" rx="3"/>
+<text x="272.16666666666663" y="239.959875" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">261,369</text>
+<rect x="300.6833333333333" y="488.412" width="49.033333333333324" height="51.588" fill="#2563eb" rx="3"/>
+<text x="325.19999999999993" y="482.412" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">45,856</text>
+<rect x="353.71666666666664" y="447.1875" width="49.033333333333324" height="92.8125" fill="#dc2626" rx="3"/>
+<text x="378.2333333333333" y="441.1875" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">82,500</text>
+<text x="274.16666666666663" y="636" text-anchor="middle" font-size="13" font-family="Arial" fill="#111827">Selective</text>
+<rect x="499.91666666666663" y="429.7725" width="49.033333333333324" height="110.2275" fill="#0f766e" rx="3"/>
+<text x="524.4333333333333" y="423.7725" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">97,980</text>
+<rect x="552.9499999999999" y="402.8355" width="49.033333333333324" height="137.1645" fill="#f97316" rx="3"/>
+<text x="577.4666666666666" y="396.8355" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">121,924</text>
+<rect x="605.9833333333332" y="172.1205" width="49.033333333333324" height="367.8795" fill="#7c3aed" rx="3"/>
+<text x="630.4999999999999" y="166.1205" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">327,004</text>
+<rect x="659.0166666666667" y="466.084125" width="49.033333333333324" height="73.915875" fill="#2563eb" rx="3"/>
+<text x="683.5333333333333" y="460.084125" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">65,703</text>
+<rect x="712.05" y="402.21337500000004" width="49.033333333333324" height="137.786625" fill="#dc2626" rx="3"/>
+<text x="736.5666666666666" y="396.21337500000004" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">122,477</text>
+<text x="632.5" y="636" text-anchor="middle" font-size="13" font-family="Arial" fill="#111827">Moderate</text>
+<rect x="858.25" y="399.99375" width="49.033333333333324" height="140.00625" fill="#0f766e" rx="3"/>
+<text x="882.7666666666667" y="393.99375" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">124,450</text>
+<rect x="911.2833333333333" y="364.38187500000004" width="49.033333333333324" height="175.618125" fill="#f97316" rx="3"/>
+<text x="935.8" y="358.38187500000004" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">156,105</text>
+<rect x="964.3166666666666" y="98.28224999999998" width="49.033333333333324" height="441.71775" fill="#7c3aed" rx="3"/>
+<text x="988.8333333333333" y="92.28224999999998" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">392,638</text>
+<rect x="1017.3499999999999" y="448.8345" width="49.033333333333324" height="91.1655" fill="#2563eb" rx="3"/>
+<text x="1041.8666666666666" y="442.8345" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">81,036</text>
+<rect x="1070.3833333333332" y="362.55375000000004" width="49.033333333333324" height="177.44625" fill="#dc2626" rx="3"/>
+<text x="1094.8999999999999" y="356.55375000000004" text-anchor="middle" font-size="11" font-family="Arial" fill="#374151">157,730</text>
+<text x="990.8333333333333" y="636" text-anchor="middle" font-size="13" font-family="Arial" fill="#111827">Dense</text>
+</svg>

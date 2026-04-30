@@ -1,0 +1,7 @@
+node_modules/
+artifacts/
+cache/
+.states/
+.env
+.DS_Store
+npm-debug.log*

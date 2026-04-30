@@ -1,0 +1,893 @@
+{
+  "metadata": {
+    "benchmarkType": "geohash_workload_matrix",
+    "rounds": 10
+  },
+  "sweeps": {
+    "temporal_span": {
+      "t1_same_day": {
+        "label": "T1 Same Day",
+        "xLabel": "1 day",
+        "metadata": {
+          "activeDays": 1
+        },
+        "operations": {
+          "registerBatch": {
+            "avgGas": 451335.58,
+            "stdGas": 0,
+            "minGas": 451335.58,
+            "maxGas": 451335.58,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInTimePeriod": {
+            "avgGas": 144540,
+            "stdGas": 0,
+            "minGas": 144540,
+            "maxGas": 144540,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInAreaDuringTime_SpatialFirst": {
+            "avgGas": 82593,
+            "stdGas": 0,
+            "minGas": 82593,
+            "maxGas": 82593,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInAreaDuringTime_TemporalFirst": {
+            "avgGas": 73014,
+            "stdGas": 0,
+            "minGas": 73014,
+            "maxGas": 73014,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInsideParcelDuringTime": {
+            "avgGas": 69561,
+            "stdGas": 0,
+            "minGas": 69561,
+            "maxGas": 69561,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          }
+        },
+        "sections": {
+          "setupGas": {
+            "avgGas": 96569,
+            "stdGas": 0,
+            "minGas": 96569,
+            "maxGas": 96569,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "spatialGas": {
+            "avgGas": 115555.33,
+            "stdGas": 0,
+            "minGas": 115555.33,
+            "maxGas": 115555.33,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "temporalGas": {
+            "avgGas": 136353.25,
+            "stdGas": 0,
+            "minGas": 136353.25,
+            "maxGas": 136353.25,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "sharedGas": {
+            "avgGas": 77625,
+            "stdGas": 0,
+            "minGas": 77625,
+            "maxGas": 77625,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          }
+        }
+      },
+      "t2_week": {
+        "label": "T2 One Week",
+        "xLabel": "7 days",
+        "metadata": {
+          "activeDays": 7
+        },
+        "operations": {
+          "registerBatch": {
+            "avgGas": 597550.75,
+            "stdGas": 0,
+            "minGas": 597550.75,
+            "maxGas": 597550.75,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInTimePeriod": {
+            "avgGas": 293320,
+            "stdGas": 0,
+            "minGas": 293320,
+            "maxGas": 293320,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInAreaDuringTime_SpatialFirst": {
+            "avgGas": 82593,
+            "stdGas": 0,
+            "minGas": 82593,
+            "maxGas": 82593,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInAreaDuringTime_TemporalFirst": {
+            "avgGas": 142346,
+            "stdGas": 0,
+            "minGas": 142346,
+            "maxGas": 142346,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInsideParcelDuringTime": {
+            "avgGas": 69561,
+            "stdGas": 0,
+            "minGas": 69561,
+            "maxGas": 69561,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          }
+        },
+        "sections": {
+          "setupGas": {
+            "avgGas": 96569,
+            "stdGas": 0,
+            "minGas": 96569,
+            "maxGas": 96569,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "spatialGas": {
+            "avgGas": 115555.33,
+            "stdGas": 0,
+            "minGas": 115555.33,
+            "maxGas": 115555.33,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "temporalGas": {
+            "avgGas": 282568.42,
+            "stdGas": 0,
+            "minGas": 282568.42,
+            "maxGas": 282568.42,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "sharedGas": {
+            "avgGas": 77625,
+            "stdGas": 0,
+            "minGas": 77625,
+            "maxGas": 77625,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          }
+        }
+      },
+      "t3_month": {
+        "label": "T3 One Month",
+        "xLabel": "30 days",
+        "metadata": {
+          "activeDays": 30
+        },
+        "operations": {
+          "registerBatch": {
+            "avgGas": 680226.23,
+            "stdGas": 0.3,
+            "minGas": 680225.33,
+            "maxGas": 680226.33,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInTimePeriod": {
+            "avgGas": 422975,
+            "stdGas": 0,
+            "minGas": 422975,
+            "maxGas": 422975,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInAreaDuringTime_SpatialFirst": {
+            "avgGas": 82593,
+            "stdGas": 0,
+            "minGas": 82593,
+            "maxGas": 82593,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInAreaDuringTime_TemporalFirst": {
+            "avgGas": 261369,
+            "stdGas": 0,
+            "minGas": 261369,
+            "maxGas": 261369,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInsideParcelDuringTime": {
+            "avgGas": 69561,
+            "stdGas": 0,
+            "minGas": 69561,
+            "maxGas": 69561,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          }
+        },
+        "sections": {
+          "setupGas": {
+            "avgGas": 96569,
+            "stdGas": 0,
+            "minGas": 96569,
+            "maxGas": 96569,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "spatialGas": {
+            "avgGas": 115555.33,
+            "stdGas": 0,
+            "minGas": 115555.33,
+            "maxGas": 115555.33,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "temporalGas": {
+            "avgGas": 365244,
+            "stdGas": 0,
+            "minGas": 365244,
+            "maxGas": 365244,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "sharedGas": {
+            "avgGas": 77625,
+            "stdGas": 0,
+            "minGas": 77625,
+            "maxGas": 77625,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          }
+        }
+      },
+      "t4_quarter": {
+        "label": "T4 One Quarter",
+        "xLabel": "90 days",
+        "metadata": {
+          "activeDays": 90
+        },
+        "operations": {
+          "registerBatch": {
+            "avgGas": 680226.33,
+            "stdGas": 0,
+            "minGas": 680226.33,
+            "maxGas": 680226.33,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInTimePeriod": {
+            "avgGas": 572435,
+            "stdGas": 0,
+            "minGas": 572435,
+            "maxGas": 572435,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInAreaDuringTime_SpatialFirst": {
+            "avgGas": 82593,
+            "stdGas": 0,
+            "minGas": 82593,
+            "maxGas": 82593,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInAreaDuringTime_TemporalFirst": {
+            "avgGas": 413949,
+            "stdGas": 0,
+            "minGas": 413949,
+            "maxGas": 413949,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInsideParcelDuringTime": {
+            "avgGas": 69561,
+            "stdGas": 0,
+            "minGas": 69561,
+            "maxGas": 69561,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          }
+        },
+        "sections": {
+          "setupGas": {
+            "avgGas": 96569,
+            "stdGas": 0,
+            "minGas": 96569,
+            "maxGas": 96569,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "spatialGas": {
+            "avgGas": 115555.33,
+            "stdGas": 0,
+            "minGas": 115555.33,
+            "maxGas": 115555.33,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "temporalGas": {
+            "avgGas": 365244,
+            "stdGas": 0,
+            "minGas": 365244,
+            "maxGas": 365244,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "sharedGas": {
+            "avgGas": 77625,
+            "stdGas": 0,
+            "minGas": 77625,
+            "maxGas": 77625,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          }
+        }
+      }
+    },
+    "spatial_selectivity": {
+      "s1_selective": {
+        "label": "S1 Selective",
+        "xLabel": "Selective",
+        "metadata": {
+          "targetAreas": 3,
+          "targetParcelLeaves": 4
+        },
+        "operations": {
+          "findBatchesInArea": {
+            "avgGas": 66359,
+            "stdGas": 0,
+            "minGas": 66359,
+            "maxGas": 66359,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInAreaDuringTime_SpatialFirst": {
+            "avgGas": 82593,
+            "stdGas": 0,
+            "minGas": 82593,
+            "maxGas": 82593,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInAreaDuringTime_TemporalFirst": {
+            "avgGas": 261369,
+            "stdGas": 0,
+            "minGas": 261369,
+            "maxGas": 261369,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "countBatchesInArea": {
+            "avgGas": 45856,
+            "stdGas": 0,
+            "minGas": 45856,
+            "maxGas": 45856,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findLotsInArea": {
+            "avgGas": 82500,
+            "stdGas": 0,
+            "minGas": 82500,
+            "maxGas": 82500,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          }
+        },
+        "sections": {}
+      },
+      "s2_moderate": {
+        "label": "S2 Moderate",
+        "xLabel": "Moderate",
+        "metadata": {
+          "targetAreas": 2,
+          "targetParcelLeaves": 8
+        },
+        "operations": {
+          "findBatchesInArea": {
+            "avgGas": 97980,
+            "stdGas": 0,
+            "minGas": 97980,
+            "maxGas": 97980,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInAreaDuringTime_SpatialFirst": {
+            "avgGas": 121924,
+            "stdGas": 0,
+            "minGas": 121924,
+            "maxGas": 121924,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInAreaDuringTime_TemporalFirst": {
+            "avgGas": 327004,
+            "stdGas": 0,
+            "minGas": 327004,
+            "maxGas": 327004,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "countBatchesInArea": {
+            "avgGas": 65703,
+            "stdGas": 0,
+            "minGas": 65703,
+            "maxGas": 65703,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findLotsInArea": {
+            "avgGas": 122477,
+            "stdGas": 0,
+            "minGas": 122477,
+            "maxGas": 122477,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          }
+        },
+        "sections": {}
+      },
+      "s3_dense": {
+        "label": "S3 Dense",
+        "xLabel": "Dense",
+        "metadata": {
+          "targetAreas": 1,
+          "targetParcelLeaves": 16
+        },
+        "operations": {
+          "findBatchesInArea": {
+            "avgGas": 124450,
+            "stdGas": 0,
+            "minGas": 124450,
+            "maxGas": 124450,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInAreaDuringTime_SpatialFirst": {
+            "avgGas": 156105,
+            "stdGas": 0,
+            "minGas": 156105,
+            "maxGas": 156105,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInAreaDuringTime_TemporalFirst": {
+            "avgGas": 392638,
+            "stdGas": 0,
+            "minGas": 392638,
+            "maxGas": 392638,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "countBatchesInArea": {
+            "avgGas": 81036,
+            "stdGas": 0,
+            "minGas": 81036,
+            "maxGas": 81036,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findLotsInArea": {
+            "avgGas": 157730,
+            "stdGas": 0,
+            "minGas": 157730,
+            "maxGas": 157730,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          }
+        },
+        "sections": {}
+      }
+    },
+    "parcel_coverage": {
+      "p1_4_leaves": {
+        "label": "P1 4 Leaves",
+        "xLabel": "4 leaves",
+        "metadata": {
+          "targetLeaves": 4
+        },
+        "operations": {
+          "registerParcel": {
+            "avgGas": 509527,
+            "stdGas": 0,
+            "minGas": 509527,
+            "maxGas": 509527,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInsideParcel": {
+            "avgGas": 55222,
+            "stdGas": 0,
+            "minGas": 55222,
+            "maxGas": 55222,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInsideParcelDuringTime": {
+            "avgGas": 69559.8,
+            "stdGas": 3.6,
+            "minGas": 69549,
+            "maxGas": 69561,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findLotsInsideParcelDuringTime": {
+            "avgGas": 85961.8,
+            "stdGas": 3.6,
+            "minGas": 85951,
+            "maxGas": 85963,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          }
+        },
+        "sections": {}
+      },
+      "p2_8_leaves": {
+        "label": "P2 8 Leaves",
+        "xLabel": "8 leaves",
+        "metadata": {
+          "targetLeaves": 8
+        },
+        "operations": {
+          "registerParcel": {
+            "avgGas": 638403,
+            "stdGas": 0,
+            "minGas": 638403,
+            "maxGas": 638403,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInsideParcel": {
+            "avgGas": 70266,
+            "stdGas": 0,
+            "minGas": 70266,
+            "maxGas": 70266,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInsideParcelDuringTime": {
+            "avgGas": 85013,
+            "stdGas": 0,
+            "minGas": 85013,
+            "maxGas": 85013,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findLotsInsideParcelDuringTime": {
+            "avgGas": 101415,
+            "stdGas": 0,
+            "minGas": 101415,
+            "maxGas": 101415,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          }
+        },
+        "sections": {}
+      },
+      "p3_16_leaves": {
+        "label": "P3 16 Leaves",
+        "xLabel": "16 leaves",
+        "metadata": {
+          "targetLeaves": 16
+        },
+        "operations": {
+          "registerParcel": {
+            "avgGas": 896155,
+            "stdGas": 0,
+            "minGas": 896155,
+            "maxGas": 896155,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInsideParcel": {
+            "avgGas": 100354,
+            "stdGas": 0,
+            "minGas": 100354,
+            "maxGas": 100354,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInsideParcelDuringTime": {
+            "avgGas": 115917,
+            "stdGas": 0,
+            "minGas": 115917,
+            "maxGas": 115917,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findLotsInsideParcelDuringTime": {
+            "avgGas": 132319,
+            "stdGas": 0,
+            "minGas": 132319,
+            "maxGas": 132319,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          }
+        },
+        "sections": {}
+      },
+      "p4_32_leaves": {
+        "label": "P4 32 Leaves",
+        "xLabel": "32 leaves",
+        "metadata": {
+          "targetLeaves": 32
+        },
+        "operations": {
+          "registerParcel": {
+            "avgGas": 1411659,
+            "stdGas": 0,
+            "minGas": 1411659,
+            "maxGas": 1411659,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInsideParcel": {
+            "avgGas": 160530,
+            "stdGas": 0,
+            "minGas": 160530,
+            "maxGas": 160530,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findBatchesInsideParcelDuringTime": {
+            "avgGas": 177725,
+            "stdGas": 0,
+            "minGas": 177725,
+            "maxGas": 177725,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "findLotsInsideParcelDuringTime": {
+            "avgGas": 194127,
+            "stdGas": 0,
+            "minGas": 194127,
+            "maxGas": 194127,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          }
+        },
+        "sections": {}
+      }
+    },
+    "lot_history": {
+      "l1_3_batches": {
+        "label": "L1 3 Batches/Lot",
+        "xLabel": "3/lot",
+        "metadata": {
+          "batchesPerLot": 3
+        },
+        "operations": {
+          "getLotTrajectory": {
+            "avgGas": 47742,
+            "stdGas": 0,
+            "minGas": 47742,
+            "maxGas": 47742,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "getLotLocationAtTime": {
+            "avgGas": 40258,
+            "stdGas": 0,
+            "minGas": 40258,
+            "maxGas": 40258,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          }
+        },
+        "sections": {}
+      },
+      "l2_10_batches": {
+        "label": "L2 10 Batches/Lot",
+        "xLabel": "10/lot",
+        "metadata": {
+          "batchesPerLot": 10
+        },
+        "operations": {
+          "getLotTrajectory": {
+            "avgGas": 99747,
+            "stdGas": 0,
+            "minGas": 99747,
+            "maxGas": 99747,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "getLotLocationAtTime": {
+            "avgGas": 49486,
+            "stdGas": 0,
+            "minGas": 49486,
+            "maxGas": 49486,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          }
+        },
+        "sections": {}
+      },
+      "l3_25_batches": {
+        "label": "L3 25 Batches/Lot",
+        "xLabel": "25/lot",
+        "metadata": {
+          "batchesPerLot": 25
+        },
+        "operations": {
+          "getLotTrajectory": {
+            "avgGas": 211208,
+            "stdGas": 0,
+            "minGas": 211208,
+            "maxGas": 211208,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          },
+          "getLotLocationAtTime": {
+            "avgGas": 63328,
+            "stdGas": 0,
+            "minGas": 63328,
+            "maxGas": 63328,
+            "rounds": 10,
+            "successRounds": 10,
+            "failureRounds": 0,
+            "status": "ok"
+          }
+        },
+        "sections": {}
+      }
+    }
+  }
+}

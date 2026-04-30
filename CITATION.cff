@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Geohash-Based Spatio-Temporal Smart Contract for Wood Supply Chain Traceability"
+message: "If you use this repository, please cite the associated paper."
+authors:
+  - family-names: "Bin Saif"
+    given-names: "Muhammad"
+  - family-names: "Moradi"
+    given-names: "Fatemeh"
+  - family-names: "Migliorini"
+    given-names: "Sara"
+license: "MIT"
+keywords:
+  - "solidity"
+  - "smart contracts"
+  - "geohash"
+  - "spatio-temporal indexing"
+  - "wood supply chain"

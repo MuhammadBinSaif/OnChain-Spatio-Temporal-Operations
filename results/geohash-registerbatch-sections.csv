@@ -1,0 +1,6 @@
+section,label,avg_gas,std_gas,min_gas,max_gas,rounds,success_rounds,failure_rounds,status
+gas,Measured Transaction Gas,683523.33,89473.52,594139,857247,120,120,0,ok
+setupGas,Common Setup Gas,96569,4726.19,95144,112244,120,120,0,ok
+spatialGas,Spatial Tree Gas,115555.33,77550.82,34720,246528,120,120,0,ok
+temporalGas,Temporal Tree Gas,365244,4726.19,363819,380919,120,120,0,ok
+sharedGas,Shared Tail Gas,77625,8061.02,71925,89025,120,120,0,ok

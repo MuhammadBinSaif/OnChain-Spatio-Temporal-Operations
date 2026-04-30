@@ -1,0 +1,461 @@
+{
+  "metadata": {
+    "benchmarkType": "geohash_gas_only",
+    "rounds": 10,
+    "parcels": 3,
+    "lots": 4,
+    "batches": 12,
+    "parcelOffsets": [
+      0,
+      10,
+      20
+    ],
+    "lotOffsets": [
+      21,
+      22,
+      23,
+      24
+    ],
+    "batchOffsets": [
+      28,
+      35,
+      42,
+      49,
+      56,
+      63,
+      70,
+      77,
+      84,
+      91,
+      98,
+      105
+    ],
+    "queryWindow": {
+      "start": 56,
+      "end": 91
+    },
+    "locationTargetOffset": 80
+  },
+  "aggregatedResults": {
+    "registerParcel": {
+      "avgGas": 509527,
+      "stdGas": 0,
+      "minGas": 509527,
+      "maxGas": 509527,
+      "rounds": 10,
+      "successRounds": 10,
+      "failureRounds": 0,
+      "status": "ok"
+    },
+    "registerLot": {
+      "avgGas": 163973,
+      "stdGas": 0,
+      "minGas": 163973,
+      "maxGas": 163973,
+      "rounds": 10,
+      "successRounds": 10,
+      "failureRounds": 0,
+      "status": "ok"
+    },
+    "registerBatch": {
+      "avgGas": 680226.73,
+      "stdGas": 0.66,
+      "minGas": 680225.33,
+      "maxGas": 680227.33,
+      "rounds": 10,
+      "successRounds": 10,
+      "failureRounds": 0,
+      "status": "ok"
+    },
+    "findBatchesInArea": {
+      "avgGas": 66359,
+      "stdGas": 0,
+      "minGas": 66359,
+      "maxGas": 66359,
+      "rounds": 10,
+      "successRounds": 10,
+      "failureRounds": 0,
+      "status": "ok"
+    },
+    "findBatchesInTimePeriod": {
+      "avgGas": 274924,
+      "stdGas": 0,
+      "minGas": 274924,
+      "maxGas": 274924,
+      "rounds": 10,
+      "successRounds": 10,
+      "failureRounds": 0,
+      "status": "ok"
+    },
+    "findBatchesInAreaDuringTime_SpatialFirst": {
+      "avgGas": 83213,
+      "stdGas": 0,
+      "minGas": 83213,
+      "maxGas": 83213,
+      "rounds": 10,
+      "successRounds": 10,
+      "failureRounds": 0,
+      "status": "ok"
+    },
+    "findBatchesInAreaDuringTime_TemporalFirst": {
+      "avgGas": 217391,
+      "stdGas": 0,
+      "minGas": 217391,
+      "maxGas": 217391,
+      "rounds": 10,
+      "successRounds": 10,
+      "failureRounds": 0,
+      "status": "ok"
+    },
+    "findBatchesInsideParcel": {
+      "avgGas": 55222,
+      "stdGas": 0,
+      "minGas": 55222,
+      "maxGas": 55222,
+      "rounds": 10,
+      "successRounds": 10,
+      "failureRounds": 0,
+      "status": "ok"
+    },
+    "findBatchesInsideParcelDuringTime": {
+      "avgGas": 70337,
+      "stdGas": 0,
+      "minGas": 70337,
+      "maxGas": 70337,
+      "rounds": 10,
+      "successRounds": 10,
+      "failureRounds": 0,
+      "status": "ok"
+    },
+    "countBatchesInArea": {
+      "avgGas": 45856,
+      "stdGas": 0,
+      "minGas": 45856,
+      "maxGas": 45856,
+      "rounds": 10,
+      "successRounds": 10,
+      "failureRounds": 0,
+      "status": "ok"
+    },
+    "findLotsInArea": {
+      "avgGas": 82500,
+      "stdGas": 0,
+      "minGas": 82500,
+      "maxGas": 82500,
+      "rounds": 10,
+      "successRounds": 10,
+      "failureRounds": 0,
+      "status": "ok"
+    },
+    "getLotTrajectory": {
+      "avgGas": 47742,
+      "stdGas": 0,
+      "minGas": 47742,
+      "maxGas": 47742,
+      "rounds": 10,
+      "successRounds": 10,
+      "failureRounds": 0,
+      "status": "ok"
+    },
+    "getLotLocationAtTime": {
+      "avgGas": 35650,
+      "stdGas": 6,
+      "minGas": 35644,
+      "maxGas": 35656,
+      "rounds": 10,
+      "successRounds": 10,
+      "failureRounds": 0,
+      "status": "ok"
+    },
+    "findParcelsAtLocation": {
+      "avgGas": 26392,
+      "stdGas": 0,
+      "minGas": 26392,
+      "maxGas": 26392,
+      "rounds": 10,
+      "successRounds": 10,
+      "failureRounds": 0,
+      "status": "ok"
+    },
+    "findLotsInsideParcelDuringTime": {
+      "avgGas": 80555,
+      "stdGas": 0,
+      "minGas": 80555,
+      "maxGas": 80555,
+      "rounds": 10,
+      "successRounds": 10,
+      "failureRounds": 0,
+      "status": "ok"
+    }
+  },
+  "aggregatedSections": {
+    "gas": {
+      "avgGas": 683523.33,
+      "stdGas": 89473.52,
+      "minGas": 594139,
+      "maxGas": 857247,
+      "rounds": 120,
+      "successRounds": 120,
+      "failureRounds": 0,
+      "status": "ok"
+    },
+    "setupGas": {
+      "avgGas": 96569,
+      "stdGas": 4726.19,
+      "minGas": 95144,
+      "maxGas": 112244,
+      "rounds": 120,
+      "successRounds": 120,
+      "failureRounds": 0,
+      "status": "ok"
+    },
+    "spatialGas": {
+      "avgGas": 115555.33,
+      "stdGas": 77550.82,
+      "minGas": 34720,
+      "maxGas": 246528,
+      "rounds": 120,
+      "successRounds": 120,
+      "failureRounds": 0,
+      "status": "ok"
+    },
+    "temporalGas": {
+      "avgGas": 365244,
+      "stdGas": 4726.19,
+      "minGas": 363819,
+      "maxGas": 380919,
+      "rounds": 120,
+      "successRounds": 120,
+      "failureRounds": 0,
+      "status": "ok"
+    },
+    "sharedGas": {
+      "avgGas": 77625,
+      "stdGas": 8061.02,
+      "minGas": 71925,
+      "maxGas": 89025,
+      "rounds": 120,
+      "successRounds": 120,
+      "failureRounds": 0,
+      "status": "ok"
+    }
+  },
+  "aggregatedBreakdown": {
+    "existingLeaf_existingBucket": {
+      "gas": {
+        "avgGas": 269722,
+        "stdGas": 0,
+        "minGas": 269722,
+        "maxGas": 269722,
+        "rounds": 10,
+        "successRounds": 10,
+        "failureRounds": 0,
+        "status": "ok"
+      },
+      "setupGas": {
+        "avgGas": 95144,
+        "stdGas": 0,
+        "minGas": 95144,
+        "maxGas": 95144,
+        "rounds": 10,
+        "successRounds": 10,
+        "failureRounds": 0,
+        "status": "ok"
+      },
+      "spatialGas": {
+        "avgGas": 34720,
+        "stdGas": 0,
+        "minGas": 34720,
+        "maxGas": 34720,
+        "rounds": 10,
+        "successRounds": 10,
+        "failureRounds": 0,
+        "status": "ok"
+      },
+      "temporalGas": {
+        "avgGas": 39402,
+        "stdGas": 0,
+        "minGas": 39402,
+        "maxGas": 39402,
+        "rounds": 10,
+        "successRounds": 10,
+        "failureRounds": 0,
+        "status": "ok"
+      },
+      "sharedGas": {
+        "avgGas": 71925,
+        "stdGas": 0,
+        "minGas": 71925,
+        "maxGas": 71925,
+        "rounds": 10,
+        "successRounds": 10,
+        "failureRounds": 0,
+        "status": "ok"
+      }
+    },
+    "existingLeaf_newBucket": {
+      "gas": {
+        "avgGas": 594139,
+        "stdGas": 0,
+        "minGas": 594139,
+        "maxGas": 594139,
+        "rounds": 10,
+        "successRounds": 10,
+        "failureRounds": 0,
+        "status": "ok"
+      },
+      "setupGas": {
+        "avgGas": 95144,
+        "stdGas": 0,
+        "minGas": 95144,
+        "maxGas": 95144,
+        "rounds": 10,
+        "successRounds": 10,
+        "failureRounds": 0,
+        "status": "ok"
+      },
+      "spatialGas": {
+        "avgGas": 34720,
+        "stdGas": 0,
+        "minGas": 34720,
+        "maxGas": 34720,
+        "rounds": 10,
+        "successRounds": 10,
+        "failureRounds": 0,
+        "status": "ok"
+      },
+      "temporalGas": {
+        "avgGas": 363819,
+        "stdGas": 0,
+        "minGas": 363819,
+        "maxGas": 363819,
+        "rounds": 10,
+        "successRounds": 10,
+        "failureRounds": 0,
+        "status": "ok"
+      },
+      "sharedGas": {
+        "avgGas": 71925,
+        "stdGas": 0,
+        "minGas": 71925,
+        "maxGas": 71925,
+        "rounds": 10,
+        "successRounds": 10,
+        "failureRounds": 0,
+        "status": "ok"
+      }
+    },
+    "newLeaf_existingBucket": {
+      "gas": {
+        "avgGas": 724549,
+        "stdGas": 0,
+        "minGas": 724549,
+        "maxGas": 724549,
+        "rounds": 10,
+        "successRounds": 10,
+        "failureRounds": 0,
+        "status": "ok"
+      },
+      "setupGas": {
+        "avgGas": 95144,
+        "stdGas": 0,
+        "minGas": 95144,
+        "maxGas": 95144,
+        "rounds": 10,
+        "successRounds": 10,
+        "failureRounds": 0,
+        "status": "ok"
+      },
+      "spatialGas": {
+        "avgGas": 246528,
+        "stdGas": 0,
+        "minGas": 246528,
+        "maxGas": 246528,
+        "rounds": 10,
+        "successRounds": 10,
+        "failureRounds": 0,
+        "status": "ok"
+      },
+      "temporalGas": {
+        "avgGas": 282421,
+        "stdGas": 0,
+        "minGas": 282421,
+        "maxGas": 282421,
+        "rounds": 10,
+        "successRounds": 10,
+        "failureRounds": 0,
+        "status": "ok"
+      },
+      "sharedGas": {
+        "avgGas": 71925,
+        "stdGas": 0,
+        "minGas": 71925,
+        "maxGas": 71925,
+        "rounds": 10,
+        "successRounds": 10,
+        "failureRounds": 0,
+        "status": "ok"
+      }
+    },
+    "newLeaf_newBucket": {
+      "gas": {
+        "avgGas": 805947,
+        "stdGas": 0,
+        "minGas": 805947,
+        "maxGas": 805947,
+        "rounds": 10,
+        "successRounds": 10,
+        "failureRounds": 0,
+        "status": "ok"
+      },
+      "setupGas": {
+        "avgGas": 95144,
+        "stdGas": 0,
+        "minGas": 95144,
+        "maxGas": 95144,
+        "rounds": 10,
+        "successRounds": 10,
+        "failureRounds": 0,
+        "status": "ok"
+      },
+      "spatialGas": {
+        "avgGas": 246528,
+        "stdGas": 0,
+        "minGas": 246528,
+        "maxGas": 246528,
+        "rounds": 10,
+        "successRounds": 10,
+        "failureRounds": 0,
+        "status": "ok"
+      },
+      "temporalGas": {
+        "avgGas": 363819,
+        "stdGas": 0,
+        "minGas": 363819,
+        "maxGas": 363819,
+        "rounds": 10,
+        "successRounds": 10,
+        "failureRounds": 0,
+        "status": "ok"
+      },
+      "sharedGas": {
+        "avgGas": 71925,
+        "stdGas": 0,
+        "minGas": 71925,
+        "maxGas": 71925,
+        "rounds": 10,
+        "successRounds": 10,
+        "failureRounds": 0,
+        "status": "ok"
+      }
+    }
+  },
+  "derivedBreakdown": {
+    "baseMeasuredTxGas": 269722,
+    "baseSpatialGas": 34720,
+    "baseTemporalGas": 39402,
+    "additionalTemporalTreeGasForNewBucket": 324417,
+    "additionalSpatialTreeGasForNewLeaf": 211808,
+    "measuredTxGasWhenBothAreNew": 805947
+  }
+}
